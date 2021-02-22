@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CourseCollectionsTestLinkedList" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-02-22T23:44:31" hostname="DESKTOP-5GU2UV0" time="0.045">
+  <properties/>
+  <testcase name="shouldNotRemoveAStudent()" classname="CourseCollectionsTestLinkedList" time="0.025"/>
+  <testcase name="shouldRemoveAStudent()" classname="CourseCollectionsTestLinkedList" time="0.001"/>
+  <testcase name="shouldNotGetAStudent()" classname="CourseCollectionsTestLinkedList" time="0.002"/>
+  <testcase name="shouldGetAStudent()" classname="CourseCollectionsTestLinkedList" time="0.002"/>
+  <testcase name="shouldNotAddAStudentWhenNoQuota()" classname="CourseCollectionsTestLinkedList" time="0.004"/>
+  <testcase name="shouldNotAddAStudent()" classname="CourseCollectionsTestLinkedList" time="0.001"/>
+  <testcase name="shouldAddAStudent()" classname="CourseCollectionsTestLinkedList" time="0.001"/>
+  <testcase name="shouldNotUpdateAStudent()" classname="CourseCollectionsTestLinkedList" time="0.002"/>
+  <testcase name="shouldUpdateAStudent()" classname="CourseCollectionsTestLinkedList" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
