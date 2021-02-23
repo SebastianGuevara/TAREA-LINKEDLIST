@@ -135,6 +135,6 @@ public class CourseCollectionsTestLinkedList {
         assertTrue(course.addStudent(student2), "The student was successfully registered");
         assertEquals(course.numRegisteredStudents(), 2);
 
-        assertNotNull(course.updateStudent(student3), "the student does not exists");
+        assertNull(course.updateStudent(student3), "the student does not exists");
     }
 }
