@@ -85,7 +85,9 @@ public class CourseVector implements CourseCollectionsExample {
                 exists=true;
             }
             if (!exists)
+            {
                 return null;
+            }
         }
         return s;
     }

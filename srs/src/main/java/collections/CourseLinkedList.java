@@ -75,20 +75,20 @@ public class CourseLinkedList implements CourseCollectionsExample {
     }
 
     @Override
-    public Student updateStudent(Student s)
-    {
-        boolean exists=false;
-        for (int i = 0; i < numRegisteredStudents();i++) {
-            if (s.getId()==students.get(i).getId())
-            {
+    public Student updateStudent(Student s) {
+        boolean exists = false;
+        for (int i = 0; i < numRegisteredStudents(); i++) {
+            if (s.getId() == students.get(i).getId()) {
                 students.get(i).setName(s.getName());
-                exists=true;
+                exists = true;
             }
             if (!exists)
+            {
                 return null;
             }
-        return s;
-        }
 
+        }
+        return s;
     }
+}
 
